@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color:#3a3a3a;
+    align-items: center;
+    color: White;
+    justify-content: right;
+}
+a{
+    margin-right: 2em;
+    color: white;
+}
+.content{
+    display: none;
+    font-size: 16px;
+    width: 8em;
+    border-radius: 1em;
+}
+header .dropdown:hover .content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: grey;
+    top: 45px;
+    right: 0em;
+}
+.logo{
+    position: absolute;
+    left:5em;
+    height: 60px;
+    width: 60px;
+}
+a:hover{
+    color: red;
+}
